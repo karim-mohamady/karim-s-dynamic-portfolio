@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Karim Mohamady",
+    "title": "Front-End Developer",
+    "subtitle": "Crafting beautiful, responsive, and user-centric web experiences with modern technologies and pixel-perfect precision.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact via WhatsApp",
+    "code_comment": "// Building the web, one pixel at a time",
+    "code_const": "const",
+    "code_developer": "developer",
+    "code_skills": "skills",
+    "code_passion": "passion"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate front-end developer with expertise in creating stunning web experiences",
+    "description": "I'm a Front-End Developer passionate about building responsive, accessible, and performant web applications. With a strong foundation in modern JavaScript frameworks and a keen eye for design, I transform ideas into pixel-perfect digital experiences.",
+    "experience": "Years Experience",
+    "projects_completed": "Projects Completed",
+    "happy_clients": "Happy Clients",
+    "skills_title": "Technical Skills"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A showcase of my recent work and personal projects",
+    "view_demo": "Live Demo",
+    "view_code": "View Code",
+    "technologies": "Technologies",
+    "project1": {
+      "title": "E-Commerce Platform",
+      "description": "A modern e-commerce platform with a seamless shopping experience, featuring product filtering, cart management, and secure checkout.",
+      "full_description": "A comprehensive e-commerce solution built with React and Next.js. Features include advanced product filtering, real-time inventory updates, secure payment integration with Stripe, and a fully responsive design that works beautifully on all devices."
+    },
+    "project2": {
+      "title": "Task Management App",
+      "description": "A beautiful task management application with drag-and-drop functionality, real-time collaboration, and progress tracking.",
+      "full_description": "A productivity-focused task management application featuring drag-and-drop task organization, team collaboration tools, project timelines, and detailed analytics. Built with React, TypeScript, and real-time updates using WebSockets."
+    },
+    "project3": {
+      "title": "Portfolio Dashboard",
+      "description": "An interactive financial portfolio dashboard with real-time data visualization and performance analytics.",
+      "full_description": "A sophisticated financial dashboard showcasing investment portfolios with real-time market data, interactive D3.js charts, performance metrics, and customizable widgets. Features dark mode and responsive design."
+    },
+    "project4": {
+      "title": "Social Media App",
+      "description": "A social media platform with modern UI, real-time messaging, and content sharing capabilities.",
+      "full_description": "A feature-rich social platform with real-time messaging, content feeds, user profiles, and media sharing. Built with React and Firebase, featuring optimistic updates and infinite scrolling."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Professional web development services tailored to your needs",
+    "cta": "Get Started",
+    "landing": {
+      "title": "Landing Page Development",
+      "description": "High-converting, visually stunning landing pages that capture attention and drive results. Perfect for product launches, marketing campaigns, and business presentations.",
+      "price": "Starting from $300"
+    },
+    "portfolio": {
+      "title": "Portfolio Development",
+      "description": "Showcase your work with a professional, custom-designed portfolio website. Stand out from the crowd and make a lasting impression on potential clients and employers.",
+      "price": "Starting from $400"
+    },
+    "figma": {
+      "title": "Figma to Code",
+      "description": "Transform your Figma designs into pixel-perfect, responsive code. I ensure every detail is preserved while maintaining clean, maintainable code architecture.",
+      "price": "Starting from $250"
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's discuss how I can help bring your vision to life.",
+    "form": {
+      "name": "Full Name",
+      "name_placeholder": "Enter your full name",
+      "email": "Email Address",
+      "email_placeholder": "Enter your email",
+      "service": "Service Interested In",
+      "service_placeholder": "Select a service",
+      "message": "Your Message",
+      "message_placeholder": "Tell me about your project...",
+      "submit": "Send via WhatsApp",
+      "success": "Opening WhatsApp...",
+      "error": "Please fill all required fields"
+    },
+    "info": {
+      "title": "Contact Information",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "location": "Location",
+      "location_value": "Egypt"
+    },
+    "services_list": {
+      "landing": "Landing Page Development",
+      "portfolio": "Portfolio Development",
+      "figma": "Figma to Code Conversion",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "description": "Front-End Developer crafting beautiful web experiences.",
+    "quick_links": "Quick Links",
+    "social": "Connect",
+    "copyright": "© 2024 Karim Mohamady. All rights reserved.",
+    "made_with": "Made with"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "close": "Close"
+  }
+}
