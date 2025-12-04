@@ -8,6 +8,10 @@ import projectEcommerceImg from '@/assets/project-ecommerce.png';
 import projectTaskappImg from '@/assets/project-taskapp.png';
 import projectDashboardImg from '@/assets/project-dashboard.png';
 import projectSocialImg from '@/assets/project-social.png';
+import projectLanding1Img from '@/assets/project-landing1.png';
+import projectLanding2Img from '@/assets/project-landing2.png';
+import projectFigma1Img from '@/assets/project-figma1.png';
+import projectFigma2Img from '@/assets/project-figma2.png';
 
 interface Project {
   id: string;
@@ -29,6 +33,34 @@ const projects: Project[] = [
     id: 'project2',
     image: projectTaskappImg,
     technologies: ['React', 'TypeScript', 'DnD Kit', 'Supabase'],
+    demo: '#',
+    github: '#',
+  },
+  {
+    id: 'landing1',
+    image: projectLanding1Img,
+    technologies: ['React', 'Tailwind', 'Framer Motion', 'TypeScript'],
+    demo: '#',
+    github: '#',
+  },
+  {
+    id: 'landing2',
+    image: projectLanding2Img,
+    technologies: ['Next.js', 'SCSS', 'GSAP', 'Contentful'],
+    demo: '#',
+    github: '#',
+  },
+  {
+    id: 'figma1',
+    image: projectFigma1Img,
+    technologies: ['React', 'Tailwind', 'Figma', 'Responsive'],
+    demo: '#',
+    github: '#',
+  },
+  {
+    id: 'figma2',
+    image: projectFigma2Img,
+    technologies: ['React Native', 'TypeScript', 'Figma', 'Expo'],
     demo: '#',
     github: '#',
   },
@@ -72,7 +104,7 @@ export function ProjectsSection() {
         </motion.div>
 
         {/* Projects Grid */}
-        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
@@ -83,10 +115,10 @@ export function ProjectsSection() {
             >
               <div
                 onClick={() => setSelectedProject(project)}
-                className="group cursor-pointer glass-card rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1"
+                className="group cursor-pointer glass-card rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-card-hover hover:-translate-y-1 h-full"
               >
                 {/* Image */}
-                <div className="relative h-48 sm:h-56 overflow-hidden">
+                <div className="relative h-48 overflow-hidden">
                   <img
                     src={project.image}
                     alt={t(`projects.${project.id}.title`)}
@@ -102,8 +134,8 @@ export function ProjectsSection() {
                 </div>
 
                 {/* Content */}
-                <div className="p-5 sm:p-6">
-                  <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
+                <div className="p-5">
+                  <h3 className="text-lg font-semibold mb-2 group-hover:text-primary transition-colors">
                     {t(`projects.${project.id}.title`)}
                   </h3>
                   <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
